@@ -1,0 +1,16 @@
+print("NILAI PUTRI DEWI KHARISMA")
+
+class PUTRI:
+    def __init__(self, nama, nilai):
+        self.nama = nama
+        self.nilai = nilai
+
+        for i in nama,nilai:
+            print(i)
+        if nilai <= 59:
+            print("Ngulang semester")
+        else :
+            print("Lanjut semester ")
+
+
+p1 = PUTRI (input("PUTRI DEWI KHARISMA"), int(input("masukkan nilai  =")))
